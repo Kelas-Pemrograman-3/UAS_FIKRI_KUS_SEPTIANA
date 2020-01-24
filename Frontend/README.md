@@ -1,4 +1,4 @@
-# Charles Evan Djabumir (latihanquasar)
+# Fikri Rahman (latihanquasar)
 
 latihan yuk
 
