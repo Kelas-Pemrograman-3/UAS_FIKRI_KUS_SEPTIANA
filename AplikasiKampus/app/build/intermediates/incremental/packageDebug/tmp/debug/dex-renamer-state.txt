@@ -1,0 +1,4 @@
+#Fri Jan 24 19:00:51 ICT 2020
+base.0=D\:\\Tugas\\Tugas Kuliah\\S5\\Uas Pemrograman 3 & 4\\AplikasiKampus\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

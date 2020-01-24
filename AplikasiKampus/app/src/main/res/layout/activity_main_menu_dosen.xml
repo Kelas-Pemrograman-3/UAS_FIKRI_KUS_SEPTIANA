@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu"
+    tools:context=".MainMenuDosen">
+
+
+    <TextView
+        android:id="@+id/txvmenunamados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:inputType="none"
+        android:hint="Name"
+        android:textColor="@color/grey"
+        android:textSize="35dp"
+        app:fontFamily="@font/bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:inputType="none"
+        android:text="WELCOME,"
+        android:textColor="@color/grey"
+        android:textSize="23dp"
+        app:fontFamily="@font/reguler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <Button
+        android:id="@+id/btnprofildos"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buletan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+
+
+    <Button
+        android:id="@+id/btnakademikdos"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btnakademik"
+        android:gravity="center"
+        android:text="     Akademik"
+        android:textAlignment="textStart"
+        android:textColor="@color/grey"
+        android:textSize="20dp"
+        app:fontFamily="@font/bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+    <TextView
+        android:id="@+id/looking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:inputType="none"
+        android:text="LOOKING FOR ?"
+        android:textColor="@color/blue"
+        android:textSize="23dp"
+        app:fontFamily="@font/bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <TextView
+        android:id="@+id/what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:inputType="none"
+        android:text="WHAT ARE YOU"
+        android:textColor="@color/blue"
+        android:textSize="23dp"
+        app:fontFamily="@font/reguler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kus.aplikasikampus">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoubl"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ConfirmDosen"></activity>
+        <activity android:name=".EditProfileDosen" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/action_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Help" />
+        <activity android:name=".AkademikDosen" />
+        <activity android:name=".ProfileDosen" />
+        <activity android:name=".LoginDosen" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Akademik" />
+        <activity android:name=".Keuangan" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainMenuDosen" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".Confirm" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
